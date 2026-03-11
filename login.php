@@ -1,3 +1,6 @@
+<?php
+require '../config/function.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,6 +46,9 @@
                         <div class="p-5 w-100">
 
                             <div class="text-center mb-4">
+
+                                    <?= alertMessage(); ?>
+
                                 <h1 class="h4 text-gray-900">Welcome Marlon!</h1>
                             </div>
 
