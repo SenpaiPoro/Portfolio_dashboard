@@ -1,6 +1,5 @@
 <?php
 require '../config/function.php';
-session_start();
 
 if (isset($_SESSION['username'])){
     header('Location: ../Portfolio/index.php ');
